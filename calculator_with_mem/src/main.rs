@@ -25,31 +25,33 @@ fn main() {
         }
 
         // 수식 계산
-        let left: f64 = if tokens[0] == "mem" {
-            memory
-        } else {
-            tokens[0].parse().unwrap()
-        };
-
-        let right: f64 = if tokens[2] == "mem" {
-            memory
-        } else {
-            tokens[2].parse().unwrap()
-        };
-
-        let result = match tokens[1] {
-            "+" => left + right,
-            "-" => left - right,
-            "*" => left * right,
-            "/" => left / right,
-            _ => {
-                unreachable!()
-            }
-        };
+        let left: f64 = eval_token(tokens[0], memory);
+        let right: f64 = eval_token(tokens[2], memory);
+        let result = eval_expression(left, tokens[1], right);
 
         // 결과 표시
         print_output(result);
         prev_result = result;
+    }
+}
+
+fn eval_expression(left: f64, operator: &str, right: f64) -> f64 {
+    match operator {
+        "+" => left + right,
+        "-" => left - right,
+        "*" => left * right,
+        "/" => left / right,
+        _ => {
+            unreachable!()
+        }
+    }
+}
+
+fn eval_token(token: &str, memory: f64) -> f64 {
+    if token == "mem" {
+        memory
+    } else {
+        token.parse().unwrap()
     }
 }
 
