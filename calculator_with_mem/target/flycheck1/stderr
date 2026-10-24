@@ -1,2 +1,2 @@
-    Checking calculator_with_mem v0.1.0 (/home/mz01-/dev/projects/calculator_with_mem)
-    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.29s
+    Blocking waiting for file lock on package cache
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.06s

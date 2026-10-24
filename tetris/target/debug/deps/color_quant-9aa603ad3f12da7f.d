@@ -1,0 +1,8 @@
+/Users/changhyeoncheon/dev/rust-projects/tetris/target/debug/deps/color_quant-9aa603ad3f12da7f.d: /Users/changhyeoncheon/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color_quant-1.1.0/src/lib.rs /Users/changhyeoncheon/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color_quant-1.1.0/src/math.rs
+
+/Users/changhyeoncheon/dev/rust-projects/tetris/target/debug/deps/libcolor_quant-9aa603ad3f12da7f.rlib: /Users/changhyeoncheon/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color_quant-1.1.0/src/lib.rs /Users/changhyeoncheon/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color_quant-1.1.0/src/math.rs
+
+/Users/changhyeoncheon/dev/rust-projects/tetris/target/debug/deps/libcolor_quant-9aa603ad3f12da7f.rmeta: /Users/changhyeoncheon/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color_quant-1.1.0/src/lib.rs /Users/changhyeoncheon/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color_quant-1.1.0/src/math.rs
+
+/Users/changhyeoncheon/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color_quant-1.1.0/src/lib.rs:
+/Users/changhyeoncheon/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color_quant-1.1.0/src/math.rs:
